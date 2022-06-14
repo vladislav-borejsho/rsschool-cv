@@ -32,6 +32,24 @@ body {
 
 .nav-list {  /*делаем навигацию в одну строку*/
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    list-style: none; /*убираем стандыртные маркеры*/
 }
+
+.nav-link {
+    padding: 0 20px; /*добавляем отступы между эл-ми списка*/
+    line-height: 50px; /*добавляем отступы между эл-ми списка*/
+    text-decoration: none;
+    color: teal;
+    font-size: 20px;
+  }
+
+html {
+    scroll-behavior: smooth; /*плавная прокрутка сайта при клике на ссылки-якоря*/
+  }
+
+:hover { /*свойства элемента при наведении*/
+    
+}
+
