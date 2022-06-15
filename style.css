@@ -43,13 +43,17 @@ body {
     text-decoration: none;
     color: teal;
     font-size: 20px;
+    transition: .3s; /*Чтобы свойства менялись плавно*/
   }
 
 html {
     scroll-behavior: smooth; /*плавная прокрутка сайта при клике на ссылки-якоря*/
   }
 
-:hover { /*свойства элемента при наведении*/
-    
+.nav-list :hover { /*свойства элемента при наведении*/
+    /* color: rgb(122, 17, 221); */
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: .3s;
+    color: rgb(197, 94, 94);
 }
-
