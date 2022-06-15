@@ -57,3 +57,19 @@ html {
     transition: .3s;
     color: rgb(197, 94, 94);
 }
+
+a {
+    text-decoration: none;
+    color: tomato;
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.list-link {
+    list-style: none;
+    padding: 0;
+}
