@@ -36,6 +36,7 @@ console.log (i)
 1. BNTU *(Engeneer of Thermal Station)*
 2. HTML & CSS Beginner
 3. JS Junior Course
+4. RS School Stage#0
 
 ## Languages:
 * Russian - native
